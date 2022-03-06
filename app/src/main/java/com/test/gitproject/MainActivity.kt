@@ -25,5 +25,6 @@ class MainActivity : AppCompatActivity() {
         fade.duration = 2000
         TransitionManager.beginDelayedTransition(binding.parent, fade)
         //change 1
+        //change 2
     }
 }
