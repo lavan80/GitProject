@@ -24,5 +24,6 @@ class MainActivity : AppCompatActivity() {
         val fade = Fade()
         fade.duration = 2000
         TransitionManager.beginDelayedTransition(binding.parent, fade)
+        //change 1
     }
 }
