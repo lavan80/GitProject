@@ -26,5 +26,6 @@ class MainActivity : AppCompatActivity() {
         TransitionManager.beginDelayedTransition(binding.parent, fade)
         //change 1
         //change 2
+        //change 3
     }
 }
