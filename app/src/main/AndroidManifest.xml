@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitProject">
         <activity
+            android:name=".ClassicAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceHolderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintSetActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

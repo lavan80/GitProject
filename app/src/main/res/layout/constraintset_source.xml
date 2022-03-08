@@ -11,7 +11,7 @@
         android:id="@+id/bt_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start here!"
+        android:text="Start here2!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -21,13 +21,14 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textView"
         app:layout_constraintVertical_bias="0.55"
         app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginTop="10dp"
         android:src="@drawable/ic_launcher_background" />
 
     <TextView
@@ -36,22 +37,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Some Text1"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintBottom_toTopOf="@id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Some text2"
-        app:layout_constraintBottom_toTopOf="@+id/bt_start"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.13" />
 
     <androidx.constraintlayout.widget.Group
@@ -59,8 +58,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/group"
         app:constraint_referenced_ids="imageView,textView2,textView"
-        android:visibility="gone"
-        tools:visibility="visible"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
