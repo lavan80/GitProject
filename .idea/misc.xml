@@ -8,6 +8,8 @@
         <entry key="app/src/main/res/layout/activity_classic_animation.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
         <entry key="app/src/main/res/layout/activity_place_holder.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/activity_transition_end.xml" value="0.19293478260869565" />
+        <entry key="app/src/main/res/layout/activity_transition_start.xml" value="0.19293478260869565" />
         <entry key="app/src/main/res/layout/constraint_set_destination.xml" value="0.1956521739130435" />
         <entry key="app/src/main/res/layout/constraintset_source.xml" value="0.1956521739130435" />
       </map>

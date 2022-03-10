@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitProject">
         <activity
+            android:name=".TransitionActivityEnd"
+            android:exported="false" />
+        <activity
+            android:name=".TransitionActivityStart"
+            android:exported="false" />
+        <activity
             android:name=".ClassicAnimationActivity"
             android:exported="false" />
         <activity

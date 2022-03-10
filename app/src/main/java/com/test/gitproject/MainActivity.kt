@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
             //fadeAnimation(it)
             //startNewActivity(ConstraintSetActivity::class.java)
             //startNewActivity(PlaceHolderActivity::class.java)
-            startNewActivity(ClassicAnimationActivity::class.java)
+            //startNewActivity(ClassicAnimationActivity::class.java)
+            startNewActivity(TransitionActivityStart::class.java)
         }
     }
 
