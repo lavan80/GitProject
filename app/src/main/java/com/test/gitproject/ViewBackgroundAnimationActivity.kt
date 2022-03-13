@@ -15,7 +15,7 @@ class ViewBackgroundAnimationActivity : AppCompatActivity() {
             button.setOnClickListener {
                 animationDrawable.start()
                 //branch2 change 1
-                //branch2 change 2
+                //branch2 change 2 add master change
         }
     }
 }
