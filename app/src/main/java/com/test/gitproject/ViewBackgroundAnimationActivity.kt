@@ -14,6 +14,7 @@ class ViewBackgroundAnimationActivity : AppCompatActivity() {
         val animationDrawable = button.background as AnimationDrawable
             button.setOnClickListener {
                 animationDrawable.start()
+                //branch2 change 1
         }
     }
 }
