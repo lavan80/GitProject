@@ -16,6 +16,7 @@ class ViewBackgroundAnimationActivity : AppCompatActivity() {
                 animationDrawable.start()
                 //branch2 change 1
                 //branch2 change 2
+                //branch3 change 1
         }
     }
 }
