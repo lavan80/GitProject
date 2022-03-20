@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GitProject">
         <activity
+            android:name=".shared_elements.SecondSharedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shared_elements.FirstSharedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SlideAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animators.ThreeSceneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animators.SceneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animators.ViewPrpertyAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".animators.AnimatorsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewBackgroundAnimationActivity"
             android:exported="false" />
         <activity
